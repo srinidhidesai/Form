@@ -11,7 +11,7 @@
     <center><img style='border-radius:30px;' src='ppl.png' width='1000' height='250'></center>
     <h1>
         <font color='darkblue' type='Georgia'>
-            <center><label>STUDENT DETAILS</label>
+            <center><label>STUDENT FORM</label>
         </font>
         </center>
     </h1><br>
@@ -69,18 +69,21 @@
             <td>
             <td>
                 <tr>
-                    <td><label>Subjects:</label>
+                    <td><label>Selective Sub:</label>
                     <td>
-                        <input type="checkbox" name="ds">
-                        <label style="font-size:20;">Data Science</label>
-                        <label style="margin-left:20px;">or</label>
-                        <input style="margin-left:20px;" type="checkbox" name="cn">
-                        <label style="font-size:20;">CN</label><br>
-                        <input type="checkbox" name="kan">
-                        <label style="font-size:20;">Kannada</label>
-                        <label style="margin-left:20px;">or</label>
-                        <input style="margin-left:20px;" type="checkbox" name="hin">
-                        <label style="font-size:20;">Hindi</label><br>
+                        <input type='radio' name='ds' value='ds'>
+                        <label style='font-size:20;'>Data Science</label><br>
+                        <input type='radio'  name='cn' value='cn'>
+                        <label style='font-size:20;'>CN</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Language:</label>
+                    <td>
+                        <input type='radio' name='kan' value='kan'>
+                        <label style='font-size:20;'>Kannada</label><br>
+                        <input type='radio'  name='hindi' value='hindi'>
+                        <label style='font-size:20;'>Hindi</label><br>
                     </td>
                 </tr>
             <td>
@@ -89,7 +92,7 @@
                 <tr>
                     <td><lable>Phone No.:</lable>
                     <td>
-                        <input type='text area' maxlength='10' placeholder='use personal number' name='pho'></input>
+                        <input type='tel' maxlength='10' placeholder='use personal number' name='pho'></input>
                     </td>
                 </tr>
             <td>
